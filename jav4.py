@@ -3,7 +3,7 @@ import google.generativeai as genai
 import pyttsx3  # For offline English voice output
 
 # ------------------- AI Setup -------------------
-API_KEY = "AIzaSyBs6yYl2rZsiOoPwyH_A1cBEyIMXY4YiWg"  # Replace with your Gemini API key
+API_KEY = "*******************************************"  # Replace with your Gemini API key
 genai.configure(api_key=API_KEY)
 model = genai.GenerativeModel("gemini-2.0-flash")
 
@@ -74,3 +74,4 @@ chat_list.pack(padx=10, pady=10)
 
 
 win.mainloop()
+
